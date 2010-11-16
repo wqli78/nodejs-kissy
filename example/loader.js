@@ -16,7 +16,7 @@ S.use('abc',function(S){
  * 引入外部文件
  */
 S.add('a', {
-    fullpath: 'a.js'
+    fullpath: 'extra.js'
 }).use('a', function(S) {
     S.log(S.a);
 });
