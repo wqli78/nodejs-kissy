@@ -43,7 +43,7 @@ S.ready(function(S) {
  * 引入core
  */
 S.use('core', function(S) {
-    S.log('core ok');
+    S.log('core ok','info');
 });
 
 /**
