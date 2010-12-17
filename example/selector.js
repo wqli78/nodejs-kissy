@@ -13,8 +13,6 @@ S.use('sizzle',function(S){
 		}
 	};
 
-
-
     fs.readFile(__dirname + '/selector.html', encoding="utf-8", function(err, data) {
         ///Y.log(data);
         document.body.innerHTML = data;
